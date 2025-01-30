@@ -1,0 +1,54 @@
+body {
+    overflow:scroll;
+    height:100vh;
+    scroll-behavior: smooth;
+    position: relative; 
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-family: "arial", sans-serif;
+    text-align: center;
+    margin: 0;
+    background-image: url("https://images4.alphacoders.com/132/1323467.png");
+}
+
+.main {
+    background-color: #ffffffcf;
+    font-family: Open Sans;
+    border: 3px solid #607e63;
+    border-radius: 20px ;
+    padding: 5%;
+    top: 50%;
+    left: 50%;
+    position:static;
+  }
+
+h2 {
+    color:rgb(0, 0, 0);
+}
+
+hr{
+    width: 80%;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.retour {
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: #607e63;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-top: 5%;
+}
+
+.retour:hover {
+    background-color: #1e5225;
+}

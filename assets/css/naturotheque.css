@@ -1,0 +1,112 @@
+h1 {
+
+  color: #496D57;
+  padding: 5px; 
+  background-color: rgba(255, 255, 255, 0.6);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 2px solid #014e01;
+  }
+  
+  body {
+    overflow:scroll;
+    height:100vh;
+    scroll-behavior: smooth;
+    position: relative; 
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-family: "arial", sans-serif;
+    text-align: center;
+    margin: 0;
+    background-image: url("https://images4.alphacoders.com/132/1323467.png");
+  }
+
+  a.create{
+    background-color: #307039;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+  }
+
+  a{
+    color: rgb(0, 0, 0);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+  }
+  hr{
+    width: 60%;
+  }
+  
+    form {
+      width: 50%;
+      margin: auto;
+      margin-top: 1%;
+    }
+
+    input {
+      padding: 4px 10px;
+      border: 0;
+      font-size: 16px;
+      border: 2px solid #014e01;
+      border-radius: 20px;
+    }
+  
+    .search {
+      width: 70%;
+      border-radius: 20px;
+    }
+    .submit {
+      width: 80px;
+      background-color: #496D57;
+      color: #ffffff;
+      border-radius: 20%;
+    }
+  
+    .rectangle-blanc {
+      width: 90%;
+      height: 80%;
+      background-color: rgba(246, 245, 245); 
+      margin: auto; 
+      margin-top: 1%;
+      position: relative;
+      margin-top:2%;
+      border: 2px solid #014e01;
+      border-radius: 20px;
+
+    }
+
+    .list-nat {
+      width: 50%; 
+      background-color: rgba(246, 245, 245); 
+      margin: auto; 
+      margin-top: 1%;
+      /* position: relative; */
+      margin-top:2%;
+      border: 2px solid #014e01;
+      margin-bottom: 2%;
+
+    }
+
+    .trier {
+      padding-top: 1.5%;
+    }
+  
+    .trier-par-button {
+      position: absolute;
+      top: 10px; /* Ajustez la valeur en fonction de la marge souhaitée en haut */
+      right: 5px; /* Ajustez la valeur pour déplacer le bouton plus à gauche */
+      background-color: #496D57;
+      color: #ffffff;
+      border-radius: 20px; /* Ajustez la valeur pour rendre le bouton plus arrondi */
+      padding: 10px 20px; /* Ajustez les valeurs de rembourrage en fonction de la taille souhaitée */
+      cursor: pointer;
+      border: 2px solid black;
+    }
+
+
+  
+    

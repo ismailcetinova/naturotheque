@@ -1,0 +1,93 @@
+:root {
+    --main-color: rgb(37, 169, 92);
+    --secondary-color: rgb(100, 100, 100);
+    --btn-color: rgb(9, 135, 66);
+    --btn-hover-color: rgb(244, 244, 244);
+    --btn-hover-text-color: rgb(10, 151, 69);
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    background: hsl(250, 11%, 78%) url("https://images4.alphacoders.com/132/1323467.png");
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info, .ajouter {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 70%;
+    margin-top: 10px;
+}
+
+.info h3, .ajouter h3 {
+    color: var(--main-color);
+    font-size: 30px;
+    margin: 0;
+}
+
+.info p, .ajouter p {
+    color: var(--secondary-color);
+    font-size: 14px;
+    margin: 3px 0;
+}
+
+#map {
+    margin: auto;
+    width: 70%;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.center a {
+    padding: 15px 20px;
+    background: var(--btn-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.2s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.center a:hover {
+    background-color: var(--btn-hover-color);
+    color: var(--btn-hover-text-color);
+}
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: var(--btn-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--btn-hover-color);
+    color: var(--btn-hover-text-color);
+}
+.carousel-image {
+    width: 600px; /* Remplacez par la largeur souhaitée */
+    height: 400px; /* Remplacez par la hauteur souhaitée */
+    object-fit: cover; /* Garde les proportions de l'image */
+}

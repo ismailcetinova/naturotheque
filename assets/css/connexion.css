@@ -1,0 +1,138 @@
+html {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  background-image: url("https://images4.alphacoders.com/132/1323467.png");
+  background-color: hsl(250, 11%, 78%);
+}
+
+
+#main {
+  margin: auto;
+  width: 50%;
+  height: 640px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.titleBox {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titleBox h1 {
+  color: rgb(37, 169, 92);
+  font-size: 30px;
+  margin: 0;
+}
+
+.titleBox p {
+  color: rgb(100, 100, 100);
+  font-size: 14px;
+  margin: 3px 0;
+}
+
+.inputBox {
+  width: 100%;
+  height: 30px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  width: 400px;
+  height: 28px;
+  border: 1px solid rgb(200, 200, 200);
+  outline: none;
+  font-weight: lighter;
+  padding: 1px 10px;
+  padding-left: 35px;
+  color: rgb(94, 94, 94);
+  font-size: 15px;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+.input[type=email] {
+  background: url("./image/mail.svg");
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position-x: 3px;
+  background-position-y: 3px;
+  outline: none;
+}
+
+.input[type=password] {
+  background: url("./image/password.svg");
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position-x: 3px;
+  background-position-y: 3px;
+}
+
+.input:focus {
+  border-color: rgb(25, 176, 14);
+}
+
+.inputName {
+  font-size: 16px;
+  color: rgb(110, 110, 110);
+  margin-top: -44px;
+  background-color: white;
+  padding: 0 10px;
+  user-select: none;
+}
+
+.errorMessage {
+  font-size: 14px;
+  margin: 5px;
+  color: red;
+}
+
+.btn {
+  width: 300px;
+  padding: 15px 20px;
+  margin-top: 50px;
+  background: linear-gradient(45deg, rgb(9, 135, 66), rgb(169, 241, 205));
+  color: white;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  transition: 0.2s;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: rgb(10, 151, 69);
+  background-color: rgb(244, 244, 244);
+}
+
+.switchPage {
+  display: flex;
+  margin-top: 20px;
+}
+
+.switchPage p {
+  margin: 0;
+  color: rgb(100, 100, 100);
+  font-size: 15px;
+  margin-right: 3px;
+}
+
+.switchPage a {
+  margin: 0;
+  font-size: 15px;
+}

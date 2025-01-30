@@ -1,0 +1,143 @@
+h1 {
+    color:#b04646;
+    padding: 5px; 
+    background-color: rgba(255, 255, 255, 0.6);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid #b04646;
+  }
+  
+  body {
+    /* Style */
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("https://images4.alphacoders.com/132/1323467.png");
+    background-color: hsl(240, 100%, 100%);
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+    /* Taille */
+    width: 100%;
+
+    /* Interieur */
+    padding: 20px;
+  }
+
+  .rectangle-blanc {
+    width: 90%; 
+    background-color: rgba(246, 245, 245, 0.947); 
+    margin: auto; 
+    margin-top: 1%;
+    position: relative;
+    border: 2px solid #014e01;
+    border-radius: 20px;
+    padding : 3%;
+  }
+  
+  form {
+    width: 50%;
+    margin: auto;
+    margin-top: 1%;
+  }
+  
+  input {
+    width: 40%;
+    height: 10%;
+    border: 1px solid rgb(200, 200, 200);
+    outline: none;
+    padding: 1px 10px;
+    padding-left: 35px;
+    font-size: 15px;
+    border-radius: 5%;
+  }
+
+  .input[type=email] {
+    background: url("./image/mail.svg");
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position-x: 3px;
+    background-position-y: 3px;
+    outline: none;
+  }
+  
+  .input[type=password] {
+    background: url("./image/password.svg");
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position-x: 3px;
+    background-position-y: 3px;
+  }
+  
+  .input[type=submit] {
+    width: 80px;
+    background-color: #496D57;
+    color: #ffffff;
+    border-radius: 20%;
+  }
+
+  .btn-supprime {
+    background-color: #ea5f5f; /* Rouge */
+}
+
+.statistiques{
+  width: 40%;
+  background-color: #496D57; 
+  color: #ffffff;
+  border-radius: 5px; 
+  border: none;
+  font-size: 16px;
+  cursor: pointer; /* Curseur de type main au survol */
+  padding:1%;
+}
+
+.supp{
+  width: 40%;
+  background-color: #b04646; 
+  color: #ffffff;
+  border-radius: 5px; 
+  border: none;
+  font-size: 16px;
+  cursor: pointer; /* Curseur de type main au survol */
+  padding:1%;
+}
+
+a{
+  text-decoration: none;
+}
+
+ div{
+  padding : 1%;
+ }
+
+ /* Style de base de la fenêtre pop-up */
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 20px;
+  z-index: 1000;
+  border: black;
+}
+
+.pop{
+  border :black;
+}
+
+.fermer-popup{
+  color:#014e01;
+}
+
+.supprimer{
+  color: #b04646;
+}
+
+/* Affichage de la fenêtre pop-up lorsqu'elle est ciblée */
+.popup:target {
+  display: block;
+}
+
+.animal-image{
+  width: 600px; /* Remplacez par la largeur souhaitée */
+  height: 400px; /* Remplacez par la hauteur souhaitée */
+  object-fit: cover; /* Garde les proportions de l'image */
+}

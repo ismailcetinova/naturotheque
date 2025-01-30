@@ -1,0 +1,138 @@
+:root {
+    --main-color: rgb(37, 169, 92);
+    --secondary-color: rgb(100, 100, 100);
+    --btn-color: rgb(9, 135, 66);
+    --btn-hover-color: rgb(244, 244, 244);
+    --btn-hover-text-color: rgb(10, 151, 69);
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.background-image {
+    background-image: url('<?php echo $naturotheque->getImageFond(); ?>');
+}
+
+#main, .titleBox, .inputBox, .naturothequeDetails, .actionButtons, .returnButton {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#main  {
+    margin-top: 50px;
+    width: 70%;
+    height: auto;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.7); /* Ici, nous utilisons le blanc (255, 255, 255) avec une transparence de 0.7 */
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.titleBox {
+    margin-bottom: 10px;
+}
+
+.titleBox h1 {
+    color: var(--main-color);
+    font-size: 30px;
+    margin: 0;
+}
+
+.titleBox p, .switchPage p {
+    color: var(--secondary-color);
+    font-size: 14px;
+    margin: 3px 0;
+}
+
+
+.btn {
+    padding: 15px 20px;
+    background: var(--btn-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.2s;
+    cursor: pointer;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.btn:hover {
+    background-color: var(--btn-hover-color);
+    color: var(--btn-hover-text-color);
+}
+
+.btn-danger {
+    padding: 15px 20px;
+    background: rgb(209, 11, 11);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.2s;
+    cursor: pointer;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.btn-danger:hover {
+    background-color: #e0e0e0;
+    color: rgb(255, 2, 2);
+}
+.returnButton {
+    margin-top: 20px;
+}
+
+a {
+    color: var(--main-color);
+}
+
+
+
+a:hover {
+    color: var(--hover-color);
+}
+
+
+
+.taxonBlock {
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scrollButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: var(--btn-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.scrollButton.left {
+    position: fixed;
+    right: 90%;
+     /* Augmentez cette valeur pour éloigner la flèche de gauche */
+
+}
+
+.scrollButton.right {
+    position: fixed;
+    left: 90%;
+    /* Augmentez cette valeur pour éloigner la flèche de droite */
+}
